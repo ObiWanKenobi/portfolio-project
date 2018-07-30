@@ -1,0 +1,10 @@
+{
+    "extends": "standard",
+    "env": {
+        "browser": true
+    },
+    "parser": "babel-eslint",
+    "rules": {
+        "indent": ["error", 4]
+    }
+}

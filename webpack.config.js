@@ -59,25 +59,6 @@ module.exports = {
                     'sass-loader'
                 ]
             },
-            // {
-            //     test: /\.scss/,
-            //     use: [
-            //         'style-loader',
-            //         {
-            //             loader: 'css-loader',
-            //             options: {
-            //                 sourceMap: IS_DEV
-            //             }
-            //         },
-            //         {
-            //             loader: 'sass-loader',
-            //             options: {
-            //                 sourceMap: IS_DEV,
-            //                 includePaths: [dirAssets]
-            //             }
-            //         }
-            //     ]
-            // },
             {
                 test: /\.(jpe?g|png|gif)$/,
                 loader: 'file-loader',

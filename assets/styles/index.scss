@@ -1,5 +1,5 @@
 $headerHeight: 100vh;
-$patternPanelHeight: 70vh;
+$patternPanelHeight: 30vh;
 $patternPanelMargin: 10vh;
 
 $colorBackground: #f7c930;
@@ -120,7 +120,7 @@ h2 {
     border: 7px solid $colorAccent;
 }
 
-.footer {
-    height: 200px;
+footer {
+    height: 500px;
     background-color: #000;
 }

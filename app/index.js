@@ -8,8 +8,8 @@ const resumeBox = basicScroll.create({
     to: 'bottom-top',
     props: {
         '--positionY': {
-            from: '150%',
-            to: '-90%'
+            from: '10%',
+            to: '-150%'
         }
     }
 })

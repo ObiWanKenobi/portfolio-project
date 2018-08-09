@@ -33,7 +33,6 @@ header {
     align-items: center;
     text-align: center;
     font-family: $fontSansSerif;
-
 }
 
 header,
@@ -43,8 +42,6 @@ footer {
 }
 
 .header-innerBox {
-    width: 30vw;
-    height: 30vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -288,7 +285,6 @@ footer {
     margin-right: 20px;
 }
 
-
 .getInTouch {
     display: flex;
     flex-direction: column;
@@ -376,4 +372,27 @@ footer {
 	100% {
         transform: translate(-50%, 0);
 	}
+}
+
+@media only screen and (max-width: 760px) {
+    .experiences {
+        padding: 20vh 40px;
+    }
+
+    .footer-content {
+        flex-direction: column;
+
+        &:after {
+            display: none;
+        }
+    }
+
+    .techniques,
+    .getInTouch {
+        margin: 0;
+    }
+
+    .techniques {
+
+    }
 }

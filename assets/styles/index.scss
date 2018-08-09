@@ -124,22 +124,21 @@ footer {
 .middlePatternPanel,
 .footerPatternPanel {
     position: absolute;
-    top:-5%;
-    left:-5%;
-    width:110%;
+    top: -5%;
+    left :-5%;
+    width: 110%;
     height: 45vh;
     z-index: 2;
 	will-change: transform;
-    background-color: $colorAccent;
 }
 
 .middlePatternPanel {
-    background: repeating-linear-gradient(-8deg, $colorAccent, $colorAccent 10px, $colorBackground 10px, $colorBackground 20px);
+    background: repeating-linear-gradient(-8deg, $colorAccent, $colorAccent 20px, $colorBackground 20px, $colorBackground 40px);
     transform: translate(0, var(--MiddlePaternPanelPositionY)) rotate(1deg);
 }
 
 .footerPatternPanel {
-    background: repeating-linear-gradient(8deg, $colorAccent, $colorAccent 10px, $colorBackground 10px, $colorBackground 20px);
+    background: repeating-linear-gradient(8deg, $colorAccent, $colorAccent 20px, $colorBackground 20px, $colorBackground 40px);
     transform: translate(0, var(--FooterPaternPanelPositionY)) rotate(-2deg);
 }
 

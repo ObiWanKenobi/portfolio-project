@@ -69,7 +69,7 @@ module.exports = {
                 ]
             },
             {
-                test: /\.(jpe?g|png|gif)$/,
+                test: /\.(jpe?g|png|gif|ico)$/,
                 loader: 'file-loader',
                 options: {
                     name: '[path][name].[ext]'

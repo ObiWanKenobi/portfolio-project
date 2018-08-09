@@ -1,6 +1,7 @@
 // Load application styles
 import 'styles/index.scss'
 import 'images/oscar_Landstrom_meta_picture.png'
+import 'images/favicon.ico'
 import * as basicScroll from 'basicscroll'
 const bezier = 'cubicInOut'
 

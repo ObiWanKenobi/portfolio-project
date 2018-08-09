@@ -4,30 +4,143 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,900|Playfair+Display:400i,700i" rel="stylesheet">
+    <meta name="description" content="Front End Developer">
     <title><%= htmlWebpackPlugin.options.title %></title>
+    <meta property="profile:first_name" content="Oscar">
+    <meta property="profile:last_name" content="Landström">
+    <meta name="robots" content="index, follow">
+    <meta name="author" content="Oscar Landström">
+
+    <!-- Facebook OG Image -->
+    <meta property="fb:app_id" content="1802918969982447" />
+    <meta property="og:image" content="/assets/images/meta_picture.png"/>
+    <meta property="og:image:height" content="630" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:site_name" content="Oscar Landström" />
+    <meta property="og:type" content="profile">
+    <meta property="og:title" content="Oscar Landström">
+    <meta property="og:url" content="http://oscarlandstrom.se">
+    <meta property="og:locale" content="sv_SE" />
+    <meta property="og:description" content="Front End Developer">
+
+    <!-- Twitter Card Image -->
+    <meta property="twitter:image" content="/assets/images/meta_picture.png"/>
+    <meta name="twitter:image:height" content="630" />
+    <meta name="twitter:image:width" content="1200" />
+    <meta name="twitter:card" content="Oscar Landström - Front end developer">
+    <meta name="twitter:title" content="Oscar Landström" />
+    <meta name="twitter:description" content="Front End Developer." />
+    <meta name="twitter:domain" content="http://oscarlandstrom.se" />
+    <meta name="twitter:url" content="http://oscarlandstrom.se" />
+    <meta name="twitter:card" content="website" />
+    <meta name="twitter:site" content="Oscar Landström" />
+    <meta name="twitter:creator" content="Oscar Landström" />
+
+    <script type="application/ld+json">
+        {
+            "@context": "https://schema.org",
+            "@type": "Person",
+            "image": ["/assets/images/meta_picture.png"],
+            "name": "Oscar Landström",
+            "url": "http://oscarlandstrom.se",
+            "jobTitle": "Front end developer",
+            "nationality": "Sweden",
+            "address": "Malmö"
+        }
+    </script>
 </head>
 
-<body>
+<body itemscope itemtype="https://schema.org/Person">
     <header>
-        <div>
-            <h1>OSCAR LANDSTRÖM</h1>
+        <div class="header-innerBox">
+            <h1>Oscar Landström</h1>
             <h2>Front end developer</h2>
         </div>
 
         <div class="header-arrow"></div>
     </header>
 
-    <section class="patternPanel">
-        <div class="resumeBox">
-            <ul>
-                <div>asd</div>
-                <div>asd</div>
-                <div>asd</div>
-                <div>asd</div>
-            </ul>
-        </div>
-    </section>
+    <div class="middle">
+        <section class="middlePatternPanel"></section>
 
-    <footer></footer>
+        <section class="experiences">
+            <section>
+                <h1 class="experiences-header">Experience</h1>
+
+                <div class="experience">
+                    <h2>Avega Group AB</h2>
+                    <h3>Consultant</h3>
+                    <p>September 2017 (current employment)</p>
+                    <p>
+                        <a href="https://www.avegagroup.se/">Avega Group AB</a>
+                    </p>
+                </div>
+
+                <div class="experience">
+                    <h2>Lundalogik AB</h2>
+                    <h3>Front end developer</h3>
+                    <p>September 2014 - September 2017</p>
+                    <p>
+                        <a href="https://lime-go.com/">Lime Go</a>
+                    </p>
+                </div>
+
+                <div class="experience">
+                    <h2>C4Webbutveckling AB</h2>
+                    <h3>Front end developer</h3>
+                    <p>April 2013 – September 2014</p>
+                </div>
+
+                <div class="experience">
+                    <h2>Problem - Intelligent Web Solutions Sweden AB</h2>
+                    <h3>Front end developer</h3>
+                    <p>August 2012 – Februari 2013</p>
+                </div>
+
+                <div class="experience">
+                    <h2>Blekinge Institute of Technology</h2>
+                    <h3>Higher Education Diploma in Software Engineering with emphasis in Web Programming</h3>
+                    <p>September 2009 – Juli 2012</p>
+                </div>
+            </section>
+        </section>
+    </div><!-- /middle -->
+
+    <footer>
+        <section class="footerPatternPanel"></section>
+
+        <div class="footer-content">
+            <section class="techniques">
+                <h1 class="techniques-header">I work with:</h1>
+
+                <ul class="techniques-list">
+                    <li class="techniques-listItem">HTML</li>
+                    <li class="techniques-listItem">CSS</li>
+                    <li class="techniques-listItem">JS</li>
+                    <li class="techniques-listItem">React</li>
+                    <li class="techniques-listItem">Vue</li>
+                    <li class="techniques-listItem">Webpack</li>
+                    <li class="techniques-listItem">UX</li>
+                    <li class="techniques-listItem">Design</li>
+                    <li class="techniques-listItem">...etc.</li>
+                </ul>
+            </section>
+
+            <section class="getInTouch">
+                <h1 class="getInTouch-header">Get in Touch:</h1>
+
+                <ul class="getInTouch-list">
+                    <li class="getInTouch-listItem">
+                        <a href="https://linkedin.com" target="_blank" alt="Link to Oscar Landström LinkedIn profile">LinkedIn</a>
+                    </li>
+
+                    <li class="getInTouch-listItem">
+                        <a href="https://github.com" target="_blank" alt="Link to Oscar Landström Github profile">Github (the code behind this page is here)</a>
+                    </li>
+                </ul>
+            </section>
+        </div>
+    </footer>
 </body>
-</html>
+</...etc.>

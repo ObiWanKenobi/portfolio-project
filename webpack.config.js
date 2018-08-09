@@ -2,6 +2,7 @@ const path = require('path')
 const webpack = require('webpack')
 const HtmlWebpackPlugin = require('html-webpack-plugin')
 const MiniCssExtractPlugin = require('mini-css-extract-plugin')
+const autoprefixer = require('autoprefixer')
 
 const IS_DEV = (process.env.NODE_ENV === 'dev')
 
@@ -56,7 +57,15 @@ module.exports = {
                 use: [
                     IS_DEV ? 'style-loader' : MiniCssExtractPlugin.loader,
                     'css-loader',
-                    'sass-loader'
+                    'sass-loader',
+                    {
+                        loader: 'postcss-loader',
+                        options: {
+                            plugins: () => {
+                                return [autoprefixer('last 2 versions', 'ie 10')]
+                            }
+                        }
+                    }
                 ]
             },
             {

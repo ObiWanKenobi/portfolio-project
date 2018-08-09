@@ -7,6 +7,12 @@ $colorAccent: #ff4b5c;
 $fontSerif: 'Lato', 'serif';
 $fontSansSerif: 'Playfair Display', 'sans-serif';
 
+html,
+body {
+    overflow-x: hidden;
+    position: relative;
+    width: 100%;
+}
 
 html {
     box-sizing: border-box;
@@ -23,7 +29,6 @@ body {
     font-family: $fontSerif;
     background-color: $colorBackground;
     color: $colorAccent;
-    overflow-x: hidden;
 }
 
 header {

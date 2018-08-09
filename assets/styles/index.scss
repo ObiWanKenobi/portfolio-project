@@ -1,6 +1,6 @@
 @import 'reset.scss';
 
-$colorBackground: #351eb8;
+$colorBackground: #241287;
 $colorAccent: #ff4b5c;
 
 $fontSerif: 'Lato', 'serif';
@@ -44,7 +44,7 @@ header {
 header,
 footer {
     background-color: $colorBackground;
-    background-image: linear-gradient(to top, $colorBackground 0%, lighten($colorBackground, 5%) 100%);
+    // background-image: linear-gradient(to top, $colorBackground 0%, lighten($colorBackground, 5%) 100%);
 }
 
 .header-innerBox {
@@ -118,7 +118,7 @@ footer {
 
 .middle {
     background-color: $colorAccent;
-    background-image: linear-gradient(to top, $colorAccent 0%, lighten($colorAccent, 5%) 100%);
+    // background-image: linear-gradient(to top, $colorAccent 0%, lighten($colorAccent, 5%) 100%);
 }
 
 .middlePatternPanel,
